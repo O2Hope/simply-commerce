@@ -1,3 +1,5 @@
 {
-    "editor.fontSize": 16
+    "editor.fontSize": 16,
+    "terminal.integrated.fontWeightBold": "normal",
+    "editor.fontWeight": "100"
 }
