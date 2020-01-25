@@ -1,5 +1,6 @@
 {
     "editor.fontSize": 16,
     "terminal.integrated.fontWeightBold": "normal",
-    "editor.fontWeight": "100"
+    "editor.fontWeight": "100",
+    "editor.fontFamily": "Operator Mono Lig, 'Courier New', monospace"
 }
