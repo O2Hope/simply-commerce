@@ -7,7 +7,7 @@ import { connect } from "react-redux";
 import CartIcon from "../cart-icon/cart-icon.component";
 import CartDropdown from "../cart-dropdown/cart-dropdown.component";
 
-const Header = ({ currentUser, cartIsHidden }) => (
+const Header = ({ currentUser, hidden }) => (
   <div className="header">
     <Link to="/" className="logo-container">
       <Logo className="logo" />
@@ -30,7 +30,7 @@ const Header = ({ currentUser, cartIsHidden }) => (
       )}
       <CartIcon/>
     </div>
-    {!cartIsHidden && <CartDropdown/>}
+    {!hidden && <CartDropdown/>}
   </div>
 );
 
