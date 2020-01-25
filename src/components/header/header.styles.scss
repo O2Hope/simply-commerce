@@ -4,11 +4,19 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  background-color: #2e2e38;
+  color: white;
+
+  a {
+    color: white;
+  }
 
   .logo-container {
     height: 100%;
     width: 70px;
-    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .options {
